@@ -1,4 +1,4 @@
-import {Agent , run , tool} from '@openai/agents';
+import {Agent} from '@openai/agents';
 import {z} from 'zod'
 import {WebSearchTool} from '../agent_tools/webSearch.js'
 import {DomainFinderPrompt} from '../constants/domainFinderPrompt.js'
