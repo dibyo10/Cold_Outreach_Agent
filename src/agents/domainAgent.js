@@ -6,6 +6,7 @@ import {MyResume} from '../constants/myResumeDescription.js'
 
 const getResultSchema = z.object({
     domains: z.array(z.string())
+    
 })
 
 const DomainFinderAgent = new Agent({
