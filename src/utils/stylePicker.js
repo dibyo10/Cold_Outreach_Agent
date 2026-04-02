@@ -7,3 +7,5 @@ function pickStyle(index) {
         ask: emailStyles.ask[index % 3],
     };
 }
+
+export default pickStyle;
